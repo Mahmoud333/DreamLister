@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2721101DF414690093B775 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2721081DF414690093B775 /* ItemType+CoreDataClass.swift */; };
+		1E2721111DF414690093B775 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2721091DF414690093B775 /* ItemType+CoreDataProperties.swift */; };
+		1E2721121DF414690093B775 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27210A1DF414690093B775 /* Item+CoreDataClass.swift */; };
+		1E2721131DF414690093B775 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27210B1DF414690093B775 /* Item+CoreDataProperties.swift */; };
+		1E2721141DF414690093B775 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27210C1DF414690093B775 /* Image+CoreDataClass.swift */; };
+		1E2721151DF414690093B775 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27210D1DF414690093B775 /* Image+CoreDataProperties.swift */; };
+		1E2721161DF414690093B775 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27210E1DF414690093B775 /* Store+CoreDataClass.swift */; };
+		1E2721171DF414690093B775 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E27210F1DF414690093B775 /* Store+CoreDataProperties.swift */; };
+		1E7789781DDA044A004243FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7789771DDA044A004243FD /* AppDelegate.swift */; };
+		1E77897A1DDA044A004243FD /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7789791DDA044A004243FD /* MainVC.swift */; };
+		1E77897D1DDA044A004243FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E77897B1DDA044A004243FD /* Main.storyboard */; };
+		1E7789801DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E77897E1DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodeld */; };
+		1E7789821DDA044A004243FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E7789811DDA044A004243FD /* Assets.xcassets */; };
+		1E7789851DDA044A004243FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E7789831DDA044A004243FD /* LaunchScreen.storyboard */; };
+		1E7789A01DDA712B004243FD /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E77899F1DDA712B004243FD /* MaterialView.swift */; };
+		1E7789A21DDA8532004243FD /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7789A11DDA8532004243FD /* ItemCell.swift */; };
+		1E7E18B81DDD322C00C4068F /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E18B71DDD322C00C4068F /* ItemDetailsVC.swift */; };
+		1E7E18BA1DDD35F400C4068F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7E18B91DDD35F300C4068F /* CustomTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E2721081DF414690093B775 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1E2721091DF414690093B775 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E27210A1DF414690093B775 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1E27210B1DF414690093B775 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E27210C1DF414690093B775 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1E27210D1DF414690093B775 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E27210E1DF414690093B775 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1E27210F1DF414690093B775 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1E7789741DDA0449004243FD /* DreamLister (Udemy) wishlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DreamLister (Udemy) wishlist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7789771DDA044A004243FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E7789791DDA044A004243FD /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		1E77897C1DDA044A004243FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E77897F1DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamLister__Udemy__wishlist.xcdatamodel; sourceTree = "<group>"; };
+		1E7789811DDA044A004243FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E7789841DDA044A004243FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E7789861DDA044A004243FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E77899F1DDA712B004243FD /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		1E7789A11DDA8532004243FD /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		1E7E18B71DDD322C00C4068F /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		1E7E18B91DDD35F300C4068F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7789711DDA0449004243FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E77896B1DDA0449004243FD = {
+			isa = PBXGroup;
+			children = (
+				1E7789761DDA044A004243FD /* DreamLister (Udemy) wishlist */,
+				1E7789751DDA0449004243FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E7789751DDA0449004243FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E7789741DDA0449004243FD /* DreamLister (Udemy) wishlist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E7789761DDA044A004243FD /* DreamLister (Udemy) wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				1E77899E1DDA70F9004243FD /* View */,
+				1E77899C1DDA0E40004243FD /* Model */,
+				1E7E18B61DDD31ED00C4068F /* Controller */,
+				1E7789771DDA044A004243FD /* AppDelegate.swift */,
+				1E77897B1DDA044A004243FD /* Main.storyboard */,
+				1E7789811DDA044A004243FD /* Assets.xcassets */,
+				1E7789831DDA044A004243FD /* LaunchScreen.storyboard */,
+				1E7789861DDA044A004243FD /* Info.plist */,
+				1E77897E1DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodeld */,
+			);
+			path = "DreamLister (Udemy) wishlist";
+			sourceTree = "<group>";
+		};
+		1E77899C1DDA0E40004243FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E2721081DF414690093B775 /* ItemType+CoreDataClass.swift */,
+				1E27210A1DF414690093B775 /* Item+CoreDataClass.swift */,
+				1E27210C1DF414690093B775 /* Image+CoreDataClass.swift */,
+				1E27210E1DF414690093B775 /* Store+CoreDataClass.swift */,
+				1E77899D1DDA0E47004243FD /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E77899D1DDA0E47004243FD /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				1E2721091DF414690093B775 /* ItemType+CoreDataProperties.swift */,
+				1E27210B1DF414690093B775 /* Item+CoreDataProperties.swift */,
+				1E27210D1DF414690093B775 /* Image+CoreDataProperties.swift */,
+				1E27210F1DF414690093B775 /* Store+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		1E77899E1DDA70F9004243FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E77899F1DDA712B004243FD /* MaterialView.swift */,
+				1E7789A11DDA8532004243FD /* ItemCell.swift */,
+				1E7E18B91DDD35F300C4068F /* CustomTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1E7E18B61DDD31ED00C4068F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1E7789791DDA044A004243FD /* MainVC.swift */,
+				1E7E18B71DDD322C00C4068F /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E7789731DDA0449004243FD /* DreamLister (Udemy) wishlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E7789891DDA044A004243FD /* Build configuration list for PBXNativeTarget "DreamLister (Udemy) wishlist" */;
+			buildPhases = (
+				1E7789701DDA0449004243FD /* Sources */,
+				1E7789711DDA0449004243FD /* Frameworks */,
+				1E7789721DDA0449004243FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DreamLister (Udemy) wishlist";
+			productName = "DreamLister (Udemy) wishlist";
+			productReference = 1E7789741DDA0449004243FD /* DreamLister (Udemy) wishlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E77896C1DDA0449004243FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Mahmoud SMGL";
+				TargetAttributes = {
+					1E7789731DDA0449004243FD = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5PD448JSVP;
+						LastSwiftMigration = 0810;
+					};
+				};
+			};
+			buildConfigurationList = 1E77896F1DDA0449004243FD /* Build configuration list for PBXProject "DreamLister (Udemy) wishlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E77896B1DDA0449004243FD;
+			productRefGroup = 1E7789751DDA0449004243FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E7789731DDA0449004243FD /* DreamLister (Udemy) wishlist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E7789721DDA0449004243FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E7789851DDA044A004243FD /* LaunchScreen.storyboard in Resources */,
+				1E7789821DDA044A004243FD /* Assets.xcassets in Resources */,
+				1E77897D1DDA044A004243FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E7789701DDA0449004243FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2721121DF414690093B775 /* Item+CoreDataClass.swift in Sources */,
+				1E7789A21DDA8532004243FD /* ItemCell.swift in Sources */,
+				1E7789A01DDA712B004243FD /* MaterialView.swift in Sources */,
+				1E2721141DF414690093B775 /* Image+CoreDataClass.swift in Sources */,
+				1E2721111DF414690093B775 /* ItemType+CoreDataProperties.swift in Sources */,
+				1E2721161DF414690093B775 /* Store+CoreDataClass.swift in Sources */,
+				1E2721151DF414690093B775 /* Image+CoreDataProperties.swift in Sources */,
+				1E7789801DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodeld in Sources */,
+				1E7E18B81DDD322C00C4068F /* ItemDetailsVC.swift in Sources */,
+				1E2721101DF414690093B775 /* ItemType+CoreDataClass.swift in Sources */,
+				1E2721171DF414690093B775 /* Store+CoreDataProperties.swift in Sources */,
+				1E77897A1DDA044A004243FD /* MainVC.swift in Sources */,
+				1E7789781DDA044A004243FD /* AppDelegate.swift in Sources */,
+				1E2721131DF414690093B775 /* Item+CoreDataProperties.swift in Sources */,
+				1E7E18BA1DDD35F400C4068F /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E77897B1DDA044A004243FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E77897C1DDA044A004243FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E7789831DDA044A004243FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E7789841DDA044A004243FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E7789871DDA044A004243FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E7789881DDA044A004243FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E77898A1DDA044A004243FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DreamLister (Udemy) wishlist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.DreamLister--Udemy--wishlist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1E77898B1DDA044A004243FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DreamLister (Udemy) wishlist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahmoud-SMGL.DreamLister--Udemy--wishlist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E77896F1DDA0449004243FD /* Build configuration list for PBXProject "DreamLister (Udemy) wishlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7789871DDA044A004243FD /* Debug */,
+				1E7789881DDA044A004243FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E7789891DDA044A004243FD /* Build configuration list for PBXNativeTarget "DreamLister (Udemy) wishlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E77898A1DDA044A004243FD /* Debug */,
+				1E77898B1DDA044A004243FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E77897E1DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E77897F1DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodel */,
+			);
+			currentVersion = 1E77897F1DDA044A004243FD /* DreamLister__Udemy__wishlist.xcdatamodel */;
+			path = DreamLister__Udemy__wishlist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E77896C1DDA0449004243FD /* Project object */;
+}
